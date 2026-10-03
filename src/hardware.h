@@ -32,5 +32,9 @@ typedef uint16_t pin_t;
 #define TART_SDATA_PORT GPIOD
 #define TART_SDATA_PIN GPIO_Pin_6
 
+// RADIO_RECONFIG PC4 - not currently driven by this firmware.
+#define TART_RADIO_RECONFIG_PORT GPIOC
+#define TART_RADIO_RECONFIG_PIN GPIO_Pin_4
+
 
 #endif /* __hardware_h__ */
